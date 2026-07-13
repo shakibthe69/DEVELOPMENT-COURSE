@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 09 - HTML Multimedia</title>
+</head>
+<body>
+
+    <h1>Chapter 09 - HTML Multimedia</h1>
+
+    <hr>
+
+    <h2>1. Audio Player</h2>
+
+    <audio controls>
+        <source src="media/sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+
+    <h2>2. Audio with Autoplay (Browser support varies)</h2>
+
+    <audio controls autoplay muted loop>
+        <source src="media/sample-audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <hr>
+
+    <h2>3. Video Player</h2>
+
+    <video width="600" controls>
+        <source src="media/sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <hr>
+
+    <h2>4. Video with Poster Image</h2>
+
+    <video
+        width="600"
+        controls
+        poster="media/poster.jpg">
+
+        <source src="media/sample-video.mp4" type="video/mp4">
+    </video>
+
+    <hr>
+
+    <h2>5. Video with Captions</h2>
+
+    <video width="600" controls>
+
+        <source src="media/sample-video.mp4" type="video/mp4">
+
+        <track
+            src="media/subtitles.vtt"
+            kind="subtitles"
+            srclang="en"
+            label="English">
+
+    </video>
+
+    <hr>
+
+    <h2>6. Embedded YouTube Video</h2>
+
+    <iframe
+        width="600"
+        height="338"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="YouTube video"
+        allowfullscreen>
+    </iframe>
+
+    <hr>
+
+    <h2>7. Embedded Google Map</h2>
+
+    <iframe
+        src="https://www.google.com/maps?q=Dhaka&output=embed"
+        width="600"
+        height="350">
+    </iframe>
+
+    <hr>
+
+    <h2>8. Embedded Website</h2>
+
+    <iframe
+        src="https://developer.mozilla.org/"
+        width="600"
+        height="400"
+        title="MDN Web Docs">
+    </iframe>
+
+    <hr>
+
+    <h2>9. Practice</h2>
+
+    <p>Add your own audio and video files to the <code>media</code> folder and display them here.</p>
+
+    <hr>
+
+    <h2>Mini Challenge</h2>
+
+    <ul>
+        <li>Add one audio file.</li>
+        <li>Add one video file.</li>
+        <li>Use a poster image.</li>
+        <li>Embed a YouTube video.</li>
+        <li>Embed a Google Map.</li>
+    </ul>
+
+</body>
+</html>
