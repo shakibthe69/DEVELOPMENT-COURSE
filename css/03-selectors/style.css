@@ -1,0 +1,160 @@
+/* =====================================
+   03 - CSS Selectors
+===================================== */
+
+
+/* Universal Selector */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+/* Element Selector */
+
+body{
+
+    font-family:Arial;
+
+    padding:40px;
+
+    background:#f5f5f5;
+
+}
+
+
+h1{
+
+    color:blue;
+
+    margin-bottom:20px;
+
+}
+
+
+p{
+
+    margin-bottom:15px;
+
+}
+
+
+/* Class Selector */
+
+.blue-text{
+
+    color:royalblue;
+
+}
+
+
+/* ID Selector */
+
+#special{
+
+    color:red;
+
+    font-weight:bold;
+
+}
+
+
+/* Descendant Selector */
+
+.card p{
+
+    color:green;
+
+}
+
+
+/* Child Selector */
+
+.card > h2{
+
+    color:purple;
+
+}
+
+
+/* Group Selector */
+
+h2,button{
+
+    margin-top:20px;
+
+}
+
+
+/* Attribute Selector */
+
+input[type="text"]{
+
+    background:#ffffcc;
+
+}
+
+
+input[type="email"]{
+
+    background:#d9f2ff;
+
+}
+
+input[type="password"]{
+
+    background:black;
+
+}
+
+/* Pseudo Class */
+
+button:hover{
+
+    background:blue;
+
+    color:white;
+
+}
+
+
+/* First Child */
+
+li:first-child{
+
+    color:red;
+
+}
+
+
+/* Last Child */
+
+li:last-child{
+
+    color:green;
+
+}
+
+
+/* nth-child */
+
+li:nth-child(2){
+
+    color:blue;
+
+}
+
+
+/* Pseudo Element */
+
+h1::after{
+
+    content:" 🚀";
+
+}
