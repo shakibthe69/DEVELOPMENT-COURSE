@@ -1,0 +1,120 @@
+/* ===========================
+   Chapter 05
+   Text & Fonts
+=========================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    padding:40px;
+
+    background:#f5f5f5;
+
+}
+
+/* Main Title */
+
+h1{
+
+    color:#2c3e50;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    font-size:42px;
+
+}
+
+/* Subtitle */
+
+h2{
+
+    color:#3498db;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+/* Normal Paragraph */
+
+.normal{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#555;
+
+    margin-bottom:20px;
+
+}
+
+/* Uppercase */
+
+.uppercase{
+
+    text-transform:uppercase;
+
+    color:crimson;
+
+    margin-bottom:20px;
+
+}
+
+/* Shadow */
+
+.shadow{
+
+    font-size:28px;
+
+    text-shadow:2px 2px 5px gray;
+
+    margin-bottom:20px;
+
+}
+
+/* Letter & Word Spacing */
+
+.spacing{
+
+    letter-spacing:2px;
+
+    word-spacing:8px;
+
+    line-height:2;
+
+    margin-bottom:20px;
+
+}
+
+/* Text Overflow */
+
+.box{
+
+    width:300px;
+
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    border:2px solid black;
+
+    padding:15px;
+
+}

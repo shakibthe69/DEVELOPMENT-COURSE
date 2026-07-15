@@ -60,7 +60,7 @@ h1{
 
     font-weight:bold;
 
-    border-radius:10px;
+    border-radius:100px;
 
 }
 
@@ -108,7 +108,7 @@ h1{
 
 .hero{
 
-    background-image:url("images/nature.jpg");
+    background-image:url("nature.jpg");
 
     background-size:cover;
 
@@ -174,7 +174,7 @@ h1{
 
 .radial{
 
-    background:radial-gradient(circle,#f39c12,#d35400);
+    background:radial-gradient(circle,#f39806,#d35400);
 
     color:white;
 
