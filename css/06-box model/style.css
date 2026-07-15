@@ -1,0 +1,102 @@
+/* ===========================
+   Chapter 06
+   CSS Box Model
+=========================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    background:#f5f5f5;
+
+    padding:40px;
+
+}
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+/* Card */
+
+.card{
+
+    width:350px;
+
+    padding:25px;
+
+    border:3px solid #3498db;
+
+    margin:30px auto;
+
+    border-radius:12px;
+
+    background:white;
+
+}
+
+.card h2{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    margin-bottom:20px;
+
+    line-height:1.6;
+
+}
+
+.card button{
+
+    padding:12px 25px;
+
+    border:none;
+
+    background:#3498db;
+
+    color:white;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+/* Box */
+
+.box{
+
+    width:250px;
+
+    height:150px;
+
+    background:orange;
+
+    color:white;
+
+    margin:40px auto;
+
+    padding:30px;
+
+    border:5px dashed red;
+
+    text-align:center;
+
+}
